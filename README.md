@@ -37,8 +37,8 @@ After this, I also added data on cities, which I added to reduce the noise in te
 
 One of my first steps was to make sure that price was normally distributed and performed a log transformation to do so.  The graphs below the before and after of the log transformation.
 
+! [Imagur] (https://imgur.com/7vK3HIU.png)
 
-   
 One of the variables I removed was yr_renovated, as the scatter plot did not show much impact on price. 
                                                           
 #Exploratory Data Analysis
@@ -47,6 +47,9 @@ I checked for multicollinearity and then explored the data before trying the mod
                     
 
 Here we can see that condition is a bit unclear on how it affects price. It appears that once condition goes to 3, price goes up a bit but then does not have much variation after.  I decided to drop this variable. 
+
+
+
 
 Numerical variables were plotted with scatter plots. 
     
