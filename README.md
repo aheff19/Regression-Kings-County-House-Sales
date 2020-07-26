@@ -33,7 +33,7 @@ This dataset in comprised of 21 variables listed below:
 
 After this, I also added data on cities, which I added to reduce the noise in terms of geography. I grouped over 70 zip codes into roughly 15 cities or regions. I wanted complete geographic representation in my model, but I did not want to use more than 20 variables for it, so this seemed like a healthy compromise given the size and variety of King County.
  
-#Data Cleaning:
+# Data Cleaning:
 
 One of my first steps was to make sure that price was normally distributed and performed a log transformation to do so.  The graphs below the before and after of the log transformation.
 
@@ -41,7 +41,7 @@ One of my first steps was to make sure that price was normally distributed and p
 
 One of the variables I removed was yr_renovated, as the scatter plot did not show much impact on price. 
                                                           
-#Exploratory Data Analysis
+# Exploratory Data Analysis
 I checked for multicollinearity and then explored the data before trying the model. I thought it best to make two dataframes, one for the categorical variables and one for the numeric variables. This help gave me a better picture on the impact of price and used box plots for visualizations. 
 
 
@@ -61,12 +61,12 @@ Numerical variables were plotted with scatter plots.
     
     
                      
-#Modeling
+# Modeling
 
 From this we went on to our model using the two dataframes and additional made with dummy variables. The initial model was an OLS regression. The final model also has a high R Squared indicating that in theory the model explains over 85% of the variability of properties prices.
 		![Imgur](https://i.imgur.com/3h62Hrz.png)		
 
-#Conclusion
+# Conclusion
 
 The three factors that affect price the most are location as expected, but also the grade and size which both show high positive correlation with price. The year a house is built or renovated does not seem to impact price significantly for properties in the King County area
 
