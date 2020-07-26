@@ -6,27 +6,30 @@ For this project, King County housing sales data was used to build a model for p
 The target audience for this are real estate agents or brokers who can use this information to guide clients (buyers or sellers) on what to expect for home prices. 
 This dataset in comprised of 21 variables listed below:
 
-*id - unique identifier for a house
-*dateDate - house was sold
-*pricePrice - is prediction target
-*bedroomsNumber - of Bedrooms/House
-*bathroomsNumber - of bathrooms/bedrooms
-*sqft_livingsquare - footage of the home
-*sqft_lotsquare - footage of the lot
-*floorsTotal - floors (levels) in house
-*waterfront - House which has a view to a waterfront
-*view - Quality of view
-*condition - How good the condition is ( Overall )
-*grade - overall grade given to the housing unit, based on King County grading system
-*sqft_above - square footage of house apart from basement
-*sqft_basement - square footage of the basement
-*yr_built - Built Year
-*yr_renovated - Year when house was renovated
-*zipcode - zip
-*lat - Latitude coordinate
-*long - Longitude coordinate
-*sqft_living15 - The square footage of interior housing living space for the nearest 15 neighbors
-*sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors
+<br><br>
+
+* **id** - unique identifier for a house
+* **dateDate** - house was sold
+* **pricePrice** -  is prediction target
+* **bedroomsNumber** -  of Bedrooms/House
+* **bathroomsNumber** -  of bathrooms/bedrooms
+* **sqft_livingsquare** -  footage of the home
+* **sqft_lotsquare** -  footage of the lot
+* **floorsTotal** -  floors (levels) in house
+* **waterfront** - House which has a view to a waterfront
+* **view** - Quality of view
+* **condition** - How good the condition is ( Overall )
+* **grade** - overall grade given to the housing unit, based on King County grading system
+* **sqft_above** - square footage of house apart from basement
+* **sqft_basement** - square footage of the basement
+* **yr_built** - Built Year
+* **yr_renovated** - Year when house was renovated
+* **zipcode** - zip
+* **lat** - Latitude coordinate
+* **long** - Longitude coordinate
+* **sqft_living15** - The square footage of interior housing living space for the nearest 15 neighbors
+* **sqft_lot15** - The square footage of the land lots of the nearest 15 neighbors
+<br><br>
 
 After this, I also added data on cities, which I added to reduce the noise in terms of geography. I grouped over 70 zip codes into roughly 15 cities or regions. I wanted complete geographic representation in my model, but I did not want to use more than 20 variables for it, so this seemed like a healthy compromise given the size and variety of King County.
  
