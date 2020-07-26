@@ -43,6 +43,10 @@ One of the variables I removed was yr_renovated, as the scatter plot did not sho
                                                           
 #Exploratory Data Analysis
 I checked for multicollinearity and then explored the data before trying the model. I thought it best to make two dataframes, one for the categorical variables and one for the numeric variables. This help gave me a better picture on the impact of price and used box plots for visualizations. 
+
+
+
+
 ![Imgur](https://i.imgur.com/Hjfvwrh.png)
      
    
@@ -52,7 +56,7 @@ Here we can see that condition is a bit unclear on how it affects price. It appe
 
 
 
-Numerical variables were plotted with scatter plots.
+Numerical variables were plotted with scatter plots. 
 ![Imgur](https://i.imgur.com/pEfafgx.png)
     
     
