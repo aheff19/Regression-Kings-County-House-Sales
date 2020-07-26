@@ -37,7 +37,7 @@ After this, I also added data on cities, which I added to reduce the noise in te
 
 One of my first steps was to make sure that price was normally distributed and performed a log transformation to do so.  The graphs below the before and after of the log transformation.
 
-! [Imgur] (https://imgur.com/7vK3HIU)
+[Imgur](https://imgur.com/7vK3HIU)
 
 One of the variables I removed was yr_renovated, as the scatter plot did not show much impact on price. 
                                                           
